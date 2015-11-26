@@ -1,0 +1,49 @@
+#include <iostream>
+#include<string>
+#include<iomanip>
+using namespace std;
+
+class Pair {
+	private:
+		string first[3], second[2];
+		
+	public:
+		void getpair();
+		void arraypair();
+			};
+			
+void Pair::getpair()
+{
+	
+	cout<<"Input the values of x, y, and z: "<<endl;
+	for (int count= 0; count <3; count++)
+	{
+	cin>>first[count];
+	}
+	cout<< "input the values of a, and b: "<<endl;
+	for (int count=0; count <2; count++)
+	{
+	cin>>second[count];
+	}
+cout<<endl;
+
+}
+void Pair::arraypair()
+{
+	cout<<"\nThe Cartesian products: \n";
+	cout<<first[0]<<","<<second[0]<<endl;
+	cout<<first[0]<<","<<second[1]<<endl;
+	cout<<first[1]<<","<<second[0]<<endl;
+	cout<<first[1]<<","<<second[1]<<endl;
+	cout<<first[2]<<","<<second[0]<<endl;
+	cout<<first[2]<<","<<second[1]<<endl;
+}
+
+int main()
+{
+	Pair pair;
+	pair.getpair();
+	pair.arraypair();
+	
+	return 0;
+}			
