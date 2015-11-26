@@ -1,4 +1,4 @@
-/*
+/*=======================================================================================================
 Problem Statement:
 	The French mathematician Rene Descartes invented the notion of a “Cartesian product” of sets, 
 	defined as follows:
@@ -6,20 +6,20 @@ Problem Statement:
 	is a member of Set A and b is a member of Set B. the pair (a,b) is called an ordered pair.
 
 Let us define an OrderedPair class with the following:
-
 Class OrderedPair {
 	public:
-
+	
 	private:
+	
 } 
+
 Create a program that contains a class and a function to compute the Cartesian product of two sets of 
 string sets stored as array, respectively and a main function that uses the previous function.
 
 For example the Cartesian product of {“A”,”B”,”C”} and {“x”, “y”} is {(“A”,”x”), (“A”,”y”),(“B”,”x”), 
 (“B”,”y”), (“C”,”x”),(“C”,”y)}.
-*/
 
-=======================================================================================================
+=======================================================================================================*/
 
 #include <iostream>
 #include<string>
